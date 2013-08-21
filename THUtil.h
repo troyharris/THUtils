@@ -10,13 +10,13 @@
 
 @interface THUtil : NSObject
 
-+(CGFloat)getRealDeviceWidth;
-+(CGFloat)getRealDeviceHeight;
-+(UIInterfaceOrientation)orientation;
-+(CGFloat)getViewBottomOrigin:(UIView *)view;
-+(CGPoint)getViewRealCenter:(UIView *)view;
-+(UIColor *)getRandomColor:(NSArray *)colors;
-+(CGFloat)getFontSizeFromIPadFontSize:(CGFloat)fontSize;
-+(CGFloat)getFontSizeFromIPhoneFontSize:(CGFloat)fontSize;
++ (CGFloat)realDeviceWidth;
++ (CGFloat)realDeviceHeight;
++ (UIInterfaceOrientation)orientation;
++ (CGFloat)viewBottomOrigin:(UIView *)view;
++ (CGPoint)viewRealCenter:(UIView *)view;
++ (UIColor *)randomColorFromArray:(NSArray *)colors;
++ (CGFloat)fontSizeFromIPadFontSize:(CGFloat)fontSize;
++ (CGFloat)fontSizeFromIPhoneFontSize:(CGFloat)fontSize;
 
 @end
